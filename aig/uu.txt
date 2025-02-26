@@ -1,0 +1,5253 @@
+7
+56
+nodeID:0, level:0, nMatches:0, type:constant zero
+nodeID:1, level:0, nMatches:0, type:Ci
+nodeID:2, level:0, nMatches:0, type:Ci
+nodeID:3, level:0, nMatches:0, type:Ci
+nodeID:4, level:0, nMatches:0, type:Ci
+nodeID:5, level:0, nMatches:0, type:Ci
+nodeID:6, level:0, nMatches:0, type:Ci
+nodeID:7, level:1, nMatches:4, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+nodeID:8, level:1, nMatches:4, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+nodeID:9, level:2, nMatches:12, type:and
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:7, faninNeg:1
+leaveNodeId:8, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:7, faninNeg:0
+leaveNodeId:8, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:7, faninNeg:1
+leaveNodeId:8, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:7, faninNeg:0
+leaveNodeId:8, faninNeg:0
+nodeID:10, level:3, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:8, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:8, faninNeg:0
+nodeID:11, level:1, nMatches:8, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+nodeID:12, level:1, nMatches:8, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+nodeID:13, level:2, nMatches:12, type:and
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:11, faninNeg:1
+leaveNodeId:12, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:11, faninNeg:0
+leaveNodeId:12, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:11, faninNeg:1
+leaveNodeId:12, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:11, faninNeg:0
+leaveNodeId:12, faninNeg:0
+nodeID:14, level:3, nMatches:6, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:13, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:13, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:13, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:13, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:11, faninNeg:1
+leaveNodeId:12, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:11, faninNeg:0
+leaveNodeId:12, faninNeg:0
+nodeID:15, level:4, nMatches:14, type:and
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:13, faninNeg:0
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:13, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:13, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:14, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:9, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:14, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:9, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+nodeID:16, level:5, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+nodeID:17, level:5, nMatches:18, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:13, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+nodeID:18, level:6, nMatches:12, type:and
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:16, faninNeg:1
+leaveNodeId:17, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:16, faninNeg:0
+leaveNodeId:17, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:16, faninNeg:1
+leaveNodeId:17, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:16, faninNeg:0
+leaveNodeId:17, faninNeg:0
+nodeID:19, level:7, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:18, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:18, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:18, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:18, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:17, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:17, faninNeg:0
+nodeID:20, level:5, nMatches:6, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+nodeID:21, level:5, nMatches:28, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:9, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:9, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:10, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:13, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:13, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:10, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:13, faninNeg:0
+nodeID:22, level:6, nMatches:12, type:and
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:20, faninNeg:1
+leaveNodeId:21, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:20, faninNeg:0
+leaveNodeId:21, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:20, faninNeg:1
+leaveNodeId:21, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:20, faninNeg:0
+leaveNodeId:21, faninNeg:0
+nodeID:23, level:7, nMatches:6, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:22, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:22, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:22, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:22, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:20, faninNeg:1
+leaveNodeId:21, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:20, faninNeg:0
+leaveNodeId:21, faninNeg:0
+nodeID:24, level:8, nMatches:14, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:22, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:18, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:22, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:18, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:22, faninNeg:0
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:22, faninNeg:0
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:22, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:19, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:22, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:19, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:23, faninNeg:0
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:18, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:23, faninNeg:1
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:18, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:4, faninNeg:1
+nodeID:25, level:9, nMatches:32, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:24, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:24, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:23, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:18, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:23, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:18, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:22, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:22, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:18, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:14, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:18, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:18, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:10, faninNeg:0
+leaveNodeId:18, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:18, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:14, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:18, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:18, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:10, faninNeg:1
+leaveNodeId:18, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:14, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:22, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:14, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:22, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:10, faninNeg:0
+nodeID:26, level:9, nMatches:32, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:14, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:14, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:13, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:13, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:14, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:9, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:14, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:9, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:13, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:13, faninNeg:0
+nodeID:27, level:10, nMatches:20, type:Co, neg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:25, faninNeg:1
+leaveNodeId:26, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:25, faninNeg:0
+leaveNodeId:26, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:25, faninNeg:1
+leaveNodeId:26, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:25, faninNeg:0
+leaveNodeId:26, faninNeg:0
+nodeID:28, level:2, nMatches:8, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:11, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:11, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:2, faninNeg:1
+leaveNodeId:11, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:2, faninNeg:0
+leaveNodeId:11, faninNeg:0
+nodeID:29, level:3, nMatches:12, type:and
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:11, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:11, faninNeg:0
+nodeID:30, level:2, nMatches:20, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:3, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+leaveNodeId:1, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:3, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+leaveNodeId:1, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:3, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:0
+leaveNodeId:1, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:3, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:1
+leaveNodeId:1, faninNeg:1
+nodeID:31, level:4, nMatches:16, type:and
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:28, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:28, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:7, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:7, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:30, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:28, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:30, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:28, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+nodeID:32, level:6, nMatches:22, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:20, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:20, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:5, faninNeg:1
+leaveNodeId:20, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:5, faninNeg:0
+leaveNodeId:20, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:13, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+nodeID:33, level:7, nMatches:14, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:20, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:20, faninNeg:0
+nodeID:34, level:6, nMatches:24, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+nodeID:35, level:8, nMatches:16, type:and
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:32, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:32, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:16, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:16, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:34, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:32, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:34, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:32, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+nodeID:36, level:9, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:24, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:24, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+nodeID:37, level:10, nMatches:42, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AOI222_X1, fneg:0, nLeaveNodes:6
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OAI222_X1, fneg:1, nLeaveNodes:6
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+nodeID:38, level:10, nMatches:56, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:9, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:5, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:9, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:9, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:4, faninNeg:0
+leaveNodeId:9, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:9, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:5, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:9, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:9, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:4, faninNeg:1
+leaveNodeId:9, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:13, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:10, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:13, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:13, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:10, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:13, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:24, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:16, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:24, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:16, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:32, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:24, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:32, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:34, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:32, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:24, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:32, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:34, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:4, faninNeg:1
+nodeID:39, level:11, nMatches:12, type:and
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:37, faninNeg:1
+leaveNodeId:38, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:37, faninNeg:0
+leaveNodeId:38, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:37, faninNeg:1
+leaveNodeId:38, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:37, faninNeg:0
+leaveNodeId:38, faninNeg:0
+nodeID:40, level:12, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:39, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:39, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:39, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:39, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:38, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:37, faninNeg:0
+leaveNodeId:38, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:39, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:39, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:37, faninNeg:1
+leaveNodeId:38, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:37, faninNeg:0
+leaveNodeId:38, faninNeg:0
+nodeID:41, level:10, nMatches:64, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+nodeID:42, level:10, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+nodeID:43, level:11, nMatches:12, type:and
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+nodeID:44, level:12, nMatches:40, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:43, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:43, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:43, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:43, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:43, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:43, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:43, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:43, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:43, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:43, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:43, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:43, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:43, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:43, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:43, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:43, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:43, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:43, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:43, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:43, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:42, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+leaveNodeId:29, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+leaveNodeId:29, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:29, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:42, faninNeg:1
+leaveNodeId:41, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:7, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:42, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:29, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:29, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:29, faninNeg:0
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:42, faninNeg:0
+leaveNodeId:41, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:7, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:42, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:30, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:42, faninNeg:1
+leaveNodeId:41, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:28, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:42, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:41, faninNeg:1
+leaveNodeId:42, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:30, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:42, faninNeg:0
+leaveNodeId:41, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:28, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:42, faninNeg:0
+nodeID:45, level:13, nMatches:14, type:Co, neg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:40, faninNeg:1
+leaveNodeId:44, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:40, faninNeg:0
+leaveNodeId:44, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:40, faninNeg:1
+leaveNodeId:44, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:40, faninNeg:0
+leaveNodeId:44, faninNeg:0
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:43, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:39, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:43, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:39, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:43, faninNeg:1
+leaveNodeId:39, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:43, faninNeg:1
+leaveNodeId:39, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:43, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:40, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:40, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:43, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:43, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:40, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:40, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:43, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:44, faninNeg:1
+leaveNodeId:39, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:44, faninNeg:0
+leaveNodeId:39, faninNeg:0
+leaveNodeId:31, faninNeg:1
+nodeID:46, level:11, nMatches:48, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:41, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:41, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:41, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:41, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:41, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:41, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:41, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:41, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:41, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:41, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:41, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:41, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:41, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:41, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:41, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:41, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+nodeID:47, level:12, nMatches:30, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:46, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:46, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:46, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:46, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:41, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:41, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:41, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:41, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:46, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:46, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:41, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:41, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:41, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:41, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:41, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:41, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:41, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:41, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+nodeID:48, level:11, nMatches:94, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:37, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:37, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:37, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:37, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:37, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:37, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:37, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:37, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:37, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:37, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:37, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:37, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:37, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:37, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:37, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:37, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:37, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:37, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+nodeID:49, level:13, nMatches:12, type:Co, neg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:47, faninNeg:1
+leaveNodeId:48, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:47, faninNeg:0
+leaveNodeId:48, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:47, faninNeg:1
+leaveNodeId:48, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:47, faninNeg:0
+leaveNodeId:48, faninNeg:0
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:46, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:37, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:46, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:37, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:46, faninNeg:0
+leaveNodeId:37, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:46, faninNeg:0
+leaveNodeId:37, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:47, faninNeg:0
+leaveNodeId:37, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:47, faninNeg:1
+leaveNodeId:37, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:48, faninNeg:1
+leaveNodeId:46, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:48, faninNeg:0
+leaveNodeId:46, faninNeg:0
+leaveNodeId:31, faninNeg:1
+nodeID:50, level:10, nMatches:44, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:1, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:3, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:3, faninNeg:0
+leaveNodeId:2, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:1, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:3, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:3, faninNeg:1
+leaveNodeId:2, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:AOI222_X1, fneg:0, nLeaveNodes:6
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OAI222_X1, fneg:1, nLeaveNodes:6
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+nodeID:51, level:10, nMatches:40, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:29, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:7, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:7, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:29, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:7, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:7, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:28, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:24, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:28, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:30, faninNeg:0
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:15, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:28, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:24, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:28, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:30, faninNeg:1
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:15, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:1, faninNeg:1
+nodeID:52, level:11, nMatches:12, type:and
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:50, faninNeg:1
+leaveNodeId:51, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:50, faninNeg:0
+leaveNodeId:51, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:50, faninNeg:1
+leaveNodeId:51, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:50, faninNeg:0
+leaveNodeId:51, faninNeg:0
+nodeID:53, level:12, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:52, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:52, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:52, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:52, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:51, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:50, faninNeg:0
+leaveNodeId:51, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:52, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:52, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:50, faninNeg:1
+leaveNodeId:51, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:50, faninNeg:0
+leaveNodeId:51, faninNeg:0
+nodeID:54, level:10, nMatches:10, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+nodeID:55, level:10, nMatches:58, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:29, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:29, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:7, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:7, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:28, faninNeg:0
+leaveNodeId:1, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:28, faninNeg:1
+leaveNodeId:1, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:23, faninNeg:1
+leaveNodeId:19, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:19, faninNeg:0
+leaveNodeId:23, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:23, faninNeg:0
+leaveNodeId:19, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:19, faninNeg:1
+leaveNodeId:23, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:10, faninNeg:0
+leaveNodeId:14, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:10, faninNeg:1
+leaveNodeId:14, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:23, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:19, faninNeg:1
+leaveNodeId:14, faninNeg:1
+leaveNodeId:10, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:23, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:19, faninNeg:0
+leaveNodeId:14, faninNeg:0
+leaveNodeId:10, faninNeg:0
+nodeID:56, level:11, nMatches:12, type:and
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XNOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XNOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:XOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:XOR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+nodeID:57, level:12, nMatches:40, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:56, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:56, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:56, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:56, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:56, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:56, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:56, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:56, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:56, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:56, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:56, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:56, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:56, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:56, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:56, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:56, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:56, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:56, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:56, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:56, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:55, faninNeg:1
+leaveNodeId:54, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+leaveNodeId:33, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+leaveNodeId:33, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:55, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:16, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:55, faninNeg:0
+leaveNodeId:54, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:33, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+leaveNodeId:33, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:55, faninNeg:0
+leaveNodeId:54, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:16, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:55, faninNeg:0
+leaveNodeId:54, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:34, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:55, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:AOI221_X1, fneg:0, nLeaveNodes:5
+leaveNodeId:32, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:1
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:55, faninNeg:1
+leaveNodeId:54, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:54, faninNeg:1
+leaveNodeId:55, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:34, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:55, faninNeg:0
+leaveNodeId:54, faninNeg:0
+gate:OAI221_X1, fneg:1, nLeaveNodes:5
+leaveNodeId:32, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:54, faninNeg:0
+leaveNodeId:55, faninNeg:0
+nodeID:58, level:13, nMatches:14, type:Co, neg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:53, faninNeg:1
+leaveNodeId:57, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:53, faninNeg:0
+leaveNodeId:57, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:53, faninNeg:1
+leaveNodeId:57, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:53, faninNeg:0
+leaveNodeId:57, faninNeg:0
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:56, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:52, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:56, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:52, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:56, faninNeg:1
+leaveNodeId:52, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:56, faninNeg:1
+leaveNodeId:52, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:56, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:53, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:53, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:56, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:56, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:53, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:53, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:56, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:57, faninNeg:1
+leaveNodeId:52, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:57, faninNeg:0
+leaveNodeId:52, faninNeg:0
+leaveNodeId:35, faninNeg:1
+nodeID:59, level:11, nMatches:30, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:54, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:36, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:36, faninNeg:0
+leaveNodeId:54, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:54, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:54, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:0
+leaveNodeId:1, faninNeg:0
+leaveNodeId:7, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:1
+leaveNodeId:1, faninNeg:1
+leaveNodeId:7, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:30, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:30, faninNeg:1
+leaveNodeId:1, faninNeg:0
+leaveNodeId:28, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:30, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:30, faninNeg:0
+leaveNodeId:1, faninNeg:1
+leaveNodeId:28, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+nodeID:60, level:12, nMatches:22, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:59, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:59, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:59, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:59, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:54, faninNeg:0
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:59, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:59, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:AOI22_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:54, faninNeg:1
+gate:OAI22_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:54, faninNeg:0
+nodeID:61, level:11, nMatches:82, type:and
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:50, faninNeg:0
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:50, faninNeg:1
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:35, faninNeg:0
+leaveNodeId:50, faninNeg:0
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:35, faninNeg:1
+leaveNodeId:50, faninNeg:1
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:4, faninNeg:1
+leaveNodeId:5, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:4, faninNeg:0
+leaveNodeId:5, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:50, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:NAND3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:50, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:NOR3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:50, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:33, faninNeg:1
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:AND3_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:50, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:33, faninNeg:0
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:OR3_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:15, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:15, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:24, faninNeg:1
+leaveNodeId:15, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:15, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:15, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:24, faninNeg:0
+leaveNodeId:15, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:50, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:50, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:4, faninNeg:0
+leaveNodeId:16, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:50, faninNeg:1
+leaveNodeId:33, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:33, faninNeg:1
+leaveNodeId:50, faninNeg:0
+leaveNodeId:16, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:50, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:4, faninNeg:1
+leaveNodeId:16, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:50, faninNeg:0
+leaveNodeId:33, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:33, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:16, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:4, faninNeg:0
+leaveNodeId:32, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:50, faninNeg:0
+leaveNodeId:34, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:34, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:32, faninNeg:0
+leaveNodeId:4, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:50, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:4, faninNeg:1
+leaveNodeId:32, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:50, faninNeg:1
+leaveNodeId:34, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:34, faninNeg:1
+leaveNodeId:50, faninNeg:0
+leaveNodeId:32, faninNeg:1
+leaveNodeId:4, faninNeg:0
+gate:AOI211_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:35, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:29, faninNeg:1
+leaveNodeId:30, faninNeg:1
+gate:OAI211_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:35, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:29, faninNeg:0
+leaveNodeId:30, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:NAND4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:NOR4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:31, faninNeg:1
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:36, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:31, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:31, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:0
+gate:AND4_X1, fneg:0, nLeaveNodes:4
+leaveNodeId:36, faninNeg:1
+leaveNodeId:34, faninNeg:1
+leaveNodeId:33, faninNeg:1
+leaveNodeId:31, faninNeg:0
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:36, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:31, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:31, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:1
+gate:OR4_X1, fneg:1, nLeaveNodes:4
+leaveNodeId:36, faninNeg:0
+leaveNodeId:34, faninNeg:0
+leaveNodeId:33, faninNeg:0
+leaveNodeId:31, faninNeg:1
+nodeID:62, level:13, nMatches:12, type:Co, neg:1
+gate:NAND2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:60, faninNeg:1
+leaveNodeId:61, faninNeg:1
+gate:NOR2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:60, faninNeg:0
+leaveNodeId:61, faninNeg:0
+gate:AND2_X1, fneg:0, nLeaveNodes:2
+leaveNodeId:60, faninNeg:1
+leaveNodeId:61, faninNeg:1
+gate:OR2_X1, fneg:1, nLeaveNodes:2
+leaveNodeId:60, faninNeg:0
+leaveNodeId:61, faninNeg:0
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:59, faninNeg:1
+leaveNodeId:35, faninNeg:1
+leaveNodeId:50, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:59, faninNeg:1
+leaveNodeId:35, faninNeg:0
+leaveNodeId:50, faninNeg:1
+gate:MUX2_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:59, faninNeg:0
+leaveNodeId:50, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:MUX2_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:59, faninNeg:0
+leaveNodeId:50, faninNeg:0
+leaveNodeId:35, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:60, faninNeg:0
+leaveNodeId:50, faninNeg:0
+leaveNodeId:35, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:60, faninNeg:1
+leaveNodeId:50, faninNeg:1
+leaveNodeId:35, faninNeg:1
+gate:AOI21_X1, fneg:0, nLeaveNodes:3
+leaveNodeId:61, faninNeg:1
+leaveNodeId:59, faninNeg:1
+leaveNodeId:35, faninNeg:0
+gate:OAI21_X1, fneg:1, nLeaveNodes:3
+leaveNodeId:61, faninNeg:0
+leaveNodeId:59, faninNeg:0
+leaveNodeId:35, faninNeg:1

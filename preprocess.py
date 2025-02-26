@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
-from mltechmap.lib import *
+from lib import *
 
 
 class SparseReshapeFunction(torch.autograd.Function):
@@ -73,8 +73,9 @@ class loadNodes(nn.Module):
       self.load = nn.Parameter(loads) ##(2, level, maxNodeNum, maxFanoutNum)
       # self.weightLoad = nn.Parameter(torch.zeros(2, level, maxNodeNum)) ## output of the level
       # self.fanoutLib = fanoutLib ## (2, level, maxNodeNum, maxFanoutNum, 2(lib, input index))
-      self.fanoutConnect = nn.Parameter(adj.coalesce()) ##(2, level, maxNodeNum, maxFanoutNum, 2, level, maxNode, match)
+      self.fanoutConnect = nn.Parameter(adj.coalesce()) ##(2, level, maxNodeNum, maxFanoutNum, 2, level, maxNode, match) --> too large 
       self.wireConnect = nn.Parameter(wireadj.coalesce())##(2, level, maxNodeNum, maxFanoutNum, 2, level, maxNode)
+      ##use tuple to store indices!
 
       
    def forward(self, weight, aigMgr):
@@ -86,13 +87,15 @@ class loadNodes(nn.Module):
       #    self.fanoutConnect.values() * expanded_weight_matrix[self.fanoutConnect.indices()[0], self.fanoutConnect.indices()[1], self.fanoutConnect.indices()[2], self.fanoutConnect.indices()[3], self.fanoutConnect.indices()[4]], 
       #    self.fanoutConnect.shape
       # )
-      o = torch.sparse_coo_tensor(
-         self.fanoutConnect.indices(), 
-         self.fanoutConnect.values() * weight[self.fanoutConnect.indices()[1], self.fanoutConnect.indices()[2], self.fanoutConnect.indices()[3], self.fanoutConnect.indices()[4]], 
-         self.fanoutConnect.shape
-      )
-      o = o.to_dense()
-      o = o.sum(dim=(1, 2, 3, 4)) ##(2, level, maxNodeNum, maxFanoutNum)
+      # o = torch.sparse_coo_tensor(
+      #    self.fanoutConnect.indices(), 
+      #    weight[self.fanoutConnect.indices()[1], self.fanoutConnect.indices()[2], self.fanoutConnect.indices()[3], self.fanoutConnect.indices()[4]], 
+      #    self.fanoutConnect.shape
+      # )
+      # o = o.to_dense()
+      # o = o.sum(dim=(1, 2, 3, 4)) ##(2, level, maxNodeNum, maxFanoutNum)
+      o = torch.zeros(2*len(aigMgr.sortedAig)*aigMgr.maxNode*aigMgr.maxFanout, dtype=torch.float32).to('cuda')
+      o[self.fanoutConnect.indices()[0]] = weight[self.fanoutConnect.indices()[1], self.fanoutConnect.indices()[2], self.fanoutConnect.indices()[3], self.fanoutConnect.indices()[4]]
       # print(o.size())
       # print(self.load)
       # print(o)
@@ -105,13 +108,15 @@ class loadNodes(nn.Module):
       # print(self.weightLoad)
       # self.weightLoad = self.weightLoad.sum(dim = -1)
       # print(self.weightLoad)
-      LoadWire =  torch.sparse_coo_tensor(
-         self.wireConnect.indices(), 
-         self.wireConnect.values() * weightLoad[self.wireConnect.indices()[1], self.wireConnect.indices()[2], self.wireConnect.indices()[3]], 
-         self.wireConnect.shape
-      )
-      LoadWire = LoadWire.to_dense()##(2, level, node, maxFanout)
-      LoadWire = LoadWire.sum(dim=(1, 2, 3))
+      # LoadWire =  torch.sparse_coo_tensor(
+      #    self.wireConnect.indices(), 
+      #    weightLoad[self.wireConnect.indices()[1], self.wireConnect.indices()[2], self.wireConnect.indices()[3]], 
+      #    self.wireConnect.shape
+      # )
+      # LoadWire = LoadWire.to_dense()##(2, level, node, maxFanout)
+      # LoadWire = LoadWire.sum(dim=(1, 2, 3))
+      LoadWire = torch.zeros(2*len(aigMgr.sortedAig)*aigMgr.maxNode*aigMgr.maxFanout, dtype=torch.float64).to('cuda')
+      LoadWire[self.wireConnect.indices()[0]] = weightLoad[self.wireConnect.indices()[1], self.wireConnect.indices()[2], self.wireConnect.indices()[3]]
       LoadWire = LoadWire.view(2, len(aigMgr.sortedAig), aigMgr.maxNode, aigMgr.maxFanout)
       LoadWire = (LoadWire * o).sum(dim = -1)
       # print(LoadWire)

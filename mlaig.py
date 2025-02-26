@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 from aig import *
 
+MAX_INPUT = 6
+
 class mlaigMgr(nn.Module):
     def __init__(self, aigMgr, libs, outputCond):
         super(mlaigMgr, self).__init__()
@@ -28,7 +30,7 @@ class mlaigMgr(nn.Module):
             load = loads[:, i+1, :]
             choice = choices[:, i+1, :]
             load = load.unsqueeze(-1).unsqueeze(-1)
-            load = load.repeat(1, 1, self.maxCut, 5)
+            load = load.repeat(1, 1, self.maxCut, MAX_INPUT)
             
             arrival, slew = nodes.forward(load, choice, arrival, slew, i+1, self.maxNode, self.maxCut, verbose)
         return 0
@@ -47,6 +49,9 @@ class mlaigMgr(nn.Module):
     #         # print(loss)
     #     return 0
     
+    # def coeffInfo(self, level):
+        
+    
     def toCuda(self, device):
         for level in self.network:
             level.to(device)
@@ -58,12 +63,12 @@ class mlaigNodeLevel(nn.Module):
     super(mlaigNodeLevel, self).__init__()
     # self.load = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5))##from input
     # self.choice = nn.Parameter(torch.zeros(2, nodeNum, matchSize))##from input
-    self.loadSCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False)
-    self.slewSCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False) 
-    self.bodySCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False)
-    self.loadACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False)
-    self.slewACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False) 
-    self.bodyACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, 5), requires_grad=False)
+    self.loadSCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False)
+    self.slewSCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False) 
+    self.bodySCoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False)
+    self.loadACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False)
+    self.slewACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False) 
+    self.bodyACoeff = nn.Parameter(torch.zeros(2, nodeNum, matchSize, MAX_INPUT), requires_grad=False)
     #adj matrix (2, maxNode, maxMatch, 5, 2, level, maxNode) -> (2*maxNode*maxMatch*5, 2, level, maxNode)
     indices = torch.tensor([])
     values = torch.tensor([])
@@ -71,13 +76,15 @@ class mlaigNodeLevel(nn.Module):
         node = nodes[i]
         for j in range(len(node.cutPos)):
             lib = libs[node.cutPos[j].lib]
-            inputNum = lib.inputNum
-            self.loadSCoeff[0, i, j, 0:inputNum] = lib.loadSCoeff
-            self.slewSCoeff[0, i, j, 0:inputNum] = lib.slewSCoeff
-            self.bodySCoeff[0, i, j, 0:inputNum] = lib.bodySCoeff
-            self.loadACoeff[0, i, j, 0:inputNum] = lib.loadACoeff
-            self.slewACoeff[0, i, j, 0:inputNum] = lib.slewACoeff
-            self.bodyACoeff[0, i, j, 0:inputNum] = lib.bodyACoeff
+            # print("lib: ", lib['cellName'], node.cutPos[j].lib, len(lib['pins']))
+            for index in range(len(lib['pins'])):
+                pin = lib['pins'][index]
+                self.loadSCoeff[0, i, j, index] = pin['loadSCoeff']
+                self.slewSCoeff[0, i, j, index] = pin['slewSCoeff']
+                self.bodySCoeff[0, i, j, index] = pin['bodySCoeff']
+                self.loadACoeff[0, i, j, index] = pin['loadACoeff']
+                self.slewACoeff[0, i, j, index] = pin['slewACoeff']
+                self.bodyACoeff[0, i, j, index] = pin['bodyACoeff']
             if node.level == 0:
                 continue
             for k in range(len(node.cutPos[j].leaves)):
@@ -88,7 +95,7 @@ class mlaigNodeLevel(nn.Module):
                 if leaf.level == 0:
                     continue
                 tempi = torch.tensor([
-                    [5*matchSize*i + 5*j + k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
+                    [MAX_INPUT*matchSize*i + MAX_INPUT*j + k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
                 ], dtype=torch.int64)
                 # tempi = torch.tensor([
                 #     [0], [i], [j], [k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
@@ -102,20 +109,21 @@ class mlaigNodeLevel(nn.Module):
                     values = torch.cat([values, tempv])
         for j in range(len(node.cutNeg)):
             lib = libs[node.cutNeg[j].lib]
-            inputNum = lib.inputNum
-            self.loadSCoeff[1, i, j, 0:inputNum] = lib.loadSCoeff
-            self.slewSCoeff[1, i, j, 0:inputNum] = lib.slewSCoeff
-            self.bodySCoeff[1, i, j, 0:inputNum] = lib.bodySCoeff
-            self.loadACoeff[1, i, j, 0:inputNum] = lib.loadACoeff
-            self.slewACoeff[1, i, j, 0:inputNum] = lib.slewACoeff
-            self.bodyACoeff[1, i, j, 0:inputNum] = lib.bodyACoeff
+            for index in range(len(lib['pins'])):
+                pin = lib['pins'][index]
+                self.loadSCoeff[1, i, j, index] = pin['loadSCoeff']
+                self.slewSCoeff[1, i, j, index] = pin['slewSCoeff']
+                self.bodySCoeff[1, i, j, index] = pin['bodySCoeff']
+                self.loadACoeff[1, i, j, index] = pin['loadACoeff']
+                self.slewACoeff[1, i, j, index] = pin['slewACoeff']
+                self.bodyACoeff[1, i, j, index] = pin['bodyACoeff']
             if node.level == 0:
                 continue
             for k in range(len(node.cutNeg[j].leaves)):
                 leaf = node.cutNeg[j].leaves[k][0]
                 pol = node.cutNeg[j].leaves[k][1]
                 tempi = torch.tensor([
-                    [5*matchSize*nodeNum + 5*matchSize*i + 5*j + k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
+                    [MAX_INPUT*matchSize*nodeNum + MAX_INPUT*matchSize*i + MAX_INPUT*j + k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
                 ], dtype=torch.int64)
                 # tempi = torch.tensor([
                 #     [1], [i], [j], [k], [pol], [leaf.topoIndex[0]], [leaf.topoIndex[1]]
@@ -127,10 +135,15 @@ class mlaigNodeLevel(nn.Module):
                 else:
                     indices = torch.cat([indices, tempi], dim=1)
                     values = torch.cat([values, tempv])             
-    self.ADJ = nn.Parameter(torch.sparse_coo_tensor(indices, values, (2*nodeNum*matchSize*5, 2, level, nodeNum)).coalesce(), requires_grad=False)
+    self.ADJ = nn.Parameter(torch.sparse_coo_tensor(indices, values, (2*nodeNum*matchSize*MAX_INPUT, 2, level, nodeNum)).coalesce(), requires_grad=False)
+    # self.arrivalArrangedT = nn.Parameter(torch.zeros(2*nodeNum*matchSize*MAX_INPUT), requires_grad=False)
+    # self.slewArrangedT = nn.Parameter(torch.zeros(2*nodeNum*matchSize*MAX_INPUT), requires_grad=False)
+    # arrivalArrangedT = torch.zeros(2*maxNode*maxCut*MAX_INPUT).to('cuda')
     # self.ADJ = self.ADJ.to_dense()## might crash --> reshape in sparse
     # self.ADJ = self.ADJ.view((2*nodeNum*matchSize*5, 2, level, nodeNum))
     # self.ADJ = self.ADJ.to_sparse()
+    
+    # print(self.bodyACoeff)
     
     # print(self.ADJ)
             
@@ -142,15 +155,20 @@ class mlaigNodeLevel(nn.Module):
       
 
    def forward(self, load, choice, arrival, slew, currentLevel, maxNode, maxCut, verbose = False): ##prev is prev arrival time of each nodes
-      arrivalArrangedT = torch.sparse_coo_tensor(self.ADJ.indices(), arrival[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]], self.ADJ.shape)
-      arrivalArrangedT = arrivalArrangedT.to_dense() ## (2*nodenum*match*5)
-      arrivalArrangedT = arrivalArrangedT.sum(dim=(1, 2, 3))
-      arrivalArranged = arrivalArrangedT.view((2, maxNode, maxCut, 5))
+    #   arrivalArrangedT = torch.sparse_coo_tensor(self.ADJ.indices(), arrival[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]], self.ADJ.shape)
+    #   arrivalArrangedT = arrivalArrangedT.to_dense() ## (2*nodenum*match*5)
+    #   arrivalArrangedT = arrivalArrangedT.sum(dim=(1, 2, 3))
+      arrivalArrangedT = torch.zeros(2*maxNode*maxCut*MAX_INPUT).to('cuda')
+      arrivalArrangedT[self.ADJ.indices()[0]] = arrival[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]]
+      arrivalArranged = arrivalArrangedT.view((2, maxNode, maxCut, MAX_INPUT))
     #   arrivalArranged = arrivalArrangedT.reshape(2, maxNode, maxCut, 5).clone()
-      slewArrangedT = torch.sparse_coo_tensor(self.ADJ.indices(), slew[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]], self.ADJ.shape)
-      slewArrangedT = slewArrangedT.to_dense() 
-      slewArrangedT = slewArrangedT.sum(dim=(1, 2, 3))
-      slewArranged = slewArrangedT.view((2, maxNode, maxCut, 5))
+    #   slewArrangedT = torch.sparse_coo_tensor(self.ADJ.indices(), slew[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]], self.ADJ.shape)
+    #   slewArrangedT = slewArrangedT.to_dense() 
+    #   slewArrangedT = slewArrangedT.sum(dim=(1, 2, 3))
+      slewArrangedT = torch.zeros(2*maxNode*maxCut*MAX_INPUT).to('cuda')
+      slewArrangedT[self.ADJ.indices()[0]] = slew[self.ADJ.indices()[1], self.ADJ.indices()[2], self.ADJ.indices()[3]]
+      slewArranged = slewArrangedT.view((2, maxNode, maxCut, MAX_INPUT))
+    #   print(arrivalArranged)
     #   slewArranged = slewArrangedT.reshape(2, maxNode, maxCut, 5).clone()
       
       if verbose:
@@ -160,8 +178,8 @@ class mlaigNodeLevel(nn.Module):
       
       
       
-      pinArrival = arrivalArranged + slewArranged*self.slewACoeff+load*self.loadACoeff+self.bodyACoeff ## (2, nodenum, match, 5)
-      pinSlew = slewArranged*self.slewSCoeff+load*self.loadSCoeff+self.bodySCoeff ## (2, nodenum, match, 5)
+      pinArrival = arrivalArranged + slewArranged*self.slewACoeff + load*self.loadACoeff + self.bodyACoeff ## (2, nodenum, match, 5)
+      pinSlew = slewArranged*self.slewSCoeff + load*self.loadSCoeff + self.bodySCoeff ## (2, nodenum, match, 5)
       newArrival = torch.logsumexp(pinArrival, dim=-1) ## (2, nodenum, match)
       newSlew = torch.logsumexp(pinSlew, dim=-1) ## (2, nodenum, match)
       
@@ -171,6 +189,7 @@ class mlaigNodeLevel(nn.Module):
         print(newArrival)
         print(choice)
         print("\n")
+
 
       newArrival = (newArrival*choice).sum(dim = -1)
       newSlew = (newSlew*choice).sum(dim = -1)

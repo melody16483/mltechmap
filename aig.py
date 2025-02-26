@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from mltechmap.lib import *
+from lib import *
 
 class aigMgr:
     def __init__(self):
@@ -98,10 +98,10 @@ class aigMgr:
             print("level: ", self.level)
         return 0
     
-    def RSConnect(self, singleLibs):
+    def RSConnect(self, libs):
         for node in self.aig:
             if type(node) == andNode or type(node) == inputNode:
-                node.RScutAdd(singleLibs)
+                node.RScutAdd(libs)
         return 0
     
     def outputLoad(self, libs, verbose = False):
@@ -117,8 +117,8 @@ class aigMgr:
                     posOutCutLib = libs[node.loadCutPos[k][0].lib]
                     inputIndex = node.loadCutPos[k][1]
                     if verbose:
-                        print(posOutCutLib.name, inputIndex)
-                    arr[0][i][j][k] = posOutCutLib.inputLoad[inputIndex]
+                        print(posOutCutLib['cellName'], inputIndex)
+                    arr[0][i][j][k] = posOutCutLib['pins'][inputIndex]['load']
                 if verbose:
                     print(arr[0][i][j])
                     print("neg")
@@ -126,8 +126,8 @@ class aigMgr:
                     negOutCutLib = libs[node.loadCutNeg[k][0].lib]
                     inputIndex = node.loadCutNeg[k][1]
                     if verbose:
-                        print(negOutCutLib.name, inputIndex)
-                    arr[1][i][j][k] = negOutCutLib.inputLoad[inputIndex]   
+                        print(negOutCutLib['cellName'], inputIndex)
+                    arr[1][i][j][k] = negOutCutLib['pins'][inputIndex]['load']   
                 if verbose:
                     print(arr[1][i][j])
                     print("\n")
@@ -159,6 +159,7 @@ class aigMgr:
                     tempi = torch.tensor([
                         [0 + i*self.maxNode*self.maxFanout + j*self.maxFanout + k], [outputCut.outputPolarity], [outputCut.output.topoIndex[0]], [outputCut.output.topoIndex[1]], [outputCut.cutIndex]
                     ], dtype=torch.int64)
+                    # print(outputCut.outputPolarity, outputCut.output.topoIndex[0], outputCut.output.topoIndex[1], outputCut.cutIndex)
                     # tempi = torch.tensor([
                     #     [0], [i], [j], [k], [outputCut.outputPolarity], [outputCut.output.topoIndex[0]], [outputCut.output.topoIndex[1]], [outputCut.cutIndex]
                     # ], dtype=torch.int64)
@@ -191,6 +192,7 @@ class aigMgr:
                     tempi = torch.tensor([
                         [self.level*self.maxNode*self.maxFanout + i*self.maxNode*self.maxFanout + j*self.maxFanout + k], [outputCut.outputPolarity], [outputCut.output.topoIndex[0]], [outputCut.output.topoIndex[1]], [outputCut.cutIndex]
                     ], dtype=torch.int64)
+                    # print(outputCut.cutIndex)
                     # tempi = torch.tensor([
                     #     [1], [i], [j], [k], [outputCut.outputPolarity], [outputCut.output.topoIndex[0]], [outputCut.output.topoIndex[1]], [outputCut.cutIndex]
                     # ], dtype=torch.int64)
@@ -282,6 +284,90 @@ class aigMgr:
                 print(node.index, " : ",techmap[(node.index, NEG)])
 
 
+    def cutParser(self, fileName, libmgr):
+        f = open(fileName, "r")
+        lines = f.readlines()
+        piNum = int(lines[0].split("\n")[0])
+        andNum = int(lines[1].split("\n")[0])
+        # print("piNum: %d, andNum: %d"%(piNum, andNum))
+        for i in range(piNum):
+            self.createInputNode()
+        for i in range(andNum):
+            self.createAndNode()
+        i = 2
+        id = -1
+        nMatch = -1
+        pol = NONE
+        # print(len(lines))
+        while i <  len(lines):
+            line = lines[i]
+            if line.startswith("nodeID"):
+                lineSeg = (line.split("\n")[0]).split(", ")
+                level = int(lineSeg[1].split(":")[1])
+                nMatch = int(lineSeg[2].split(":")[1])
+                id = 2*int(lineSeg[0].split(":")[1])
+                node = self.aig[id]
+                assert(type(node) == andNode or type(node) == inputNode)
+                node.level = 2*level
+                node.outputBuf.level = 2*level+1
+                if len(lineSeg) == 5:
+                    pol = int(lineSeg[4].split(":")[1])
+                    assert(pol == POS or pol == NEG)
+                    node.outputPol(pol)
+                i += 1
+                if lineSeg[3].split(":")[1] != "and" and lineSeg[3].split(":")[1] != "Co": ##const and ci node don't have cut
+                    continue
+                else:
+                    
+                    for j in range(nMatch):
+                        line = lines[i]
+                        lineSegM = (line.split("\n")[0]).split(", ")
+                        outPolM = int(lineSegM[1].split(":")[1])
+                        assert(outPolM == POS or outPolM == NEG)
+                        outLibM = libmgr.N2I(lineSegM[0].split(":")[1])
+                        leaveNum = int(lineSegM[2].split(":")[1])
+                        if outLibM == None:
+                            print("lib %s not in lib list at line %d"%lineSegM[0].split(":")[1], i)
+                            return 1
+                        leaves = []
+                        i += 1
+                        for k in range(leaveNum):
+                            line = lines[i]
+                            lineSegL = (line.split("\n")[0]).split(", ")
+                            # print(lineSegL)
+                            idl = 2*int(lineSegL[0].split(":")[1])
+                            assert(idl < len(self.aig))
+                            leave = self.aig[idl]
+                            assert(type(leave) != bufNode)
+                            leaves.append([leave, int(lineSegL[1].split(":")[1])])
+                            i += 1
+                        # print(leaves)
+                        cut = cutNode(leaves, node, outPolM, outLibM)
+                        ret = node.cutAdd(cut, outPolM)
+                        if ret :
+                            return 1
+
+        self.RSConnect(libmgr.singleLibs)
+        for i in range(len(self.aig)):##add sortedAig
+            node = self.aig[i]
+            while len(self.sortedAig) <= node.level:
+                self.sortedAig.append([])
+            node.topoIndex = (node.level, len(self.sortedAig[node.level]))
+            self.sortedAig[node.level].append(node)
+            self.maxFanout = max(self.maxFanout, len(node.loadCutPos), len(node.loadCutNeg))
+            if type(node) == inputNode:
+                continue
+            self.maxCut = max(len(node.cutPos), len(node.cutNeg), self.maxCut)
+            for j in range(len(node.cutPos)):
+                cut = node.cutPos[j]
+                cut.cutIndex = j
+            for j in range(len(node.cutNeg)):
+                cut = node.cutNeg[j]
+                cut.cutIndex = j
+        self.level = len(self.sortedAig)
+        for level in self.sortedAig:
+            self.maxNode = max(self.maxNode, len(level))
+        return 0
 
 class cutNode:
     def __init__(self, leaves, output, outputPolarity , lib, bufCut = False):
@@ -330,18 +416,12 @@ class inputNode:
         for lib in singleLibs:
             if lib['polarity'] == POS:
                 cutPOSTemp = cutNode([(self, POS)], self.outputBuf, POS, lib['index'], bufCut=True)
-                # cutNEGTemp = cutNode([(self, NEG)], self.outputBuf, NEG, lib.index, bufCut=True)
-                # self.outputBuf.cutNeg.append(cutNEGTemp)
                 self.outputBuf.cutPos.append(cutPOSTemp)
                 self.loadCutPos.append((cutPOSTemp, 0))
-                # self.loadCutNeg.append((cutNEGTemp, 0))
             elif lib['polarity'] == NEG:
                 cutPOSTemp = cutNode([(self, POS)], self.outputBuf, NEG, lib['index'], bufCut=True)
-                # cutNEGTemp = cutNode([(self, NEG)], self.outputBuf, POS, lib.index, bufCut=True)
                 self.outputBuf.cutNeg.append(cutPOSTemp)
-                # self.outputBuf.cutPos.append(cutNEGTemp)
                 self.loadCutPos.append((cutPOSTemp, 0))
-                # self.loadCutNeg.append((cutNEGTemp, 0))
             else:
                 print("illegal lib")
                 return 1
@@ -374,11 +454,14 @@ class andNode:
         self.rightPolarity = pol
         Node.outputBuf.outputNodes.append(self)
     
-    def outputPos(self):
-        self.outputBuf.outputPolarity = POS
+    # def outputPos(self):
+    #     self.outputBuf.outputPolarity = POS
         
-    def outputNeg(self):
-        self.outputBuf.outputPolarity = NEG
+    # def outputNeg(self):
+    #     self.outputBuf.outputPolarity = NEG
+    
+    def outputPol(self, pol):
+        self.outputBuf.outputPolarity = pol
     
     def cutAdd(self, cut, pol):
         if pol == NEG:

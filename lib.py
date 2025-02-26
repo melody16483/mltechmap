@@ -12,14 +12,22 @@ NEG = 1
 NONE = 2
 
 #temp
-WIRE = 0
-BUF = 1
-INV1 = 2
-INV2 = 3
-AND1 = 4
-NAND1 = 5
-OR1 = 6
+# WIRE = 0
+# BUF = 1
+# INV1 = 2
+# INV2 = 3
+# AND1 = 4
+# NAND1 = 5
+# OR1 = 6
 
+##nangate default lib temp
+WIRE = 0
+AND1 = 1
+BUF = 25
+INV1 = 56 
+INV2 = 57
+NAND1 = 64
+OR1 = 98 
 
 
 class libMgr:
@@ -211,8 +219,11 @@ class libMgr:
                 return 1
             
         for lib in self.libs:
+            lib['polarity'] = NONE
             if len(lib['pins']) == 1:
                 self.singleLibs.append(lib)
+        
+        self.LibPolarity()
         
         return 0
     
@@ -221,9 +232,21 @@ class libMgr:
         ret = self.ExcelParser(fileName)
         return 0
     
+    def LibPolarity(self):
+        for lib in self.singleLibs:
+            cellName = lib['cellName']
+            index = cellName.find('INV')
+            if index == -1:
+                lib['polarity'] = POS
+            else:
+                lib['polarity'] = NEG
+        return 0
+    
+    def N2I(self, cellName):
+        return self.nameToIndex.get(cellName)
     def libInfo(self):
         for lib in self.libs:
-            print(lib['cellName'], ":")
+            print(lib['cellName'], ":", lib['index'])
             for pin in lib['pins']:
                 print("%s(%s)"%(pin['pinName'], pin['load']), end=', ')
             print("\n")

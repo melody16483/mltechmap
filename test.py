@@ -16,7 +16,7 @@ if torch.cuda.is_available():
    print('cuda available')
    cuda0 = torch.device('cuda:0')
    
-
+torch.manual_seed(123)
 ## lib parse in
 libmgr = libMgr()
 libmgr.ExcelParser('./lib/Nangate45_typ')
@@ -58,36 +58,38 @@ node3.cutAdd(node3Cut2, NEG)
 node3.cutAdd(node3Cut3, NEG)
 
 ##preprocess part
-aigMgr.RSConnect(libmgr)
+aigMgr.RSConnect([libmgr.libs[0], libmgr.libs[25], libmgr.libs[56], libmgr.libs[57]])
 aigMgr.topoSort()
-load = aigMgr.outputLoad(libmgr)
+load = aigMgr.outputLoad(libmgr.libs)
 outputADJ, outputWireADJ = aigMgr.outputADJ()
 weightMaskPre, weightMaskPost = aigMgr.weightMask()
-
+# print(load)
 
 
 ##po required polarity
-node1.outputNeg()
+node1.outputPol(NEG)
 aigMgr.PO.append(node1.outputBuf)
 outputCond = aigMgr.outputCond()
-print(outputCond)
 
-# device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-device = torch.device('cpu')
 
-##circuit build and to device
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cpu')
+
+# ##circuit build and to device
 choices = choiceNodes(len(aigMgr.sortedAig), aigMgr.maxNode, aigMgr.maxCut, weightMaskPre, weightMaskPost)
 choices.to(device)
 loads = loadNodes(load, len(aigMgr.sortedAig), aigMgr.maxNode, outputWireADJ, outputADJ)
 loads.to(device)
-circuitMgr = mlaigMgr(aigMgr, libs, outputCond)
+circuitMgr = mlaigMgr(aigMgr, libmgr.libs, outputCond)
 circuitMgr.toCuda(device)
-optimizer = optim.SGD([choices.weight], lr=0.01)
+optimizer = optim.AdamW([choices.weight], lr=0.01)
+
+# for level in circuitMgr.network:
+#    print(level.ADJ)
 
 
 
-
-epochTotal = 200
+epochTotal = 1000
 
 print("start")
 # print(choices.weight)
@@ -98,42 +100,30 @@ for epoch in range(epochTotal):
    # if epoch == 0:
       # print(weight)
    load = loads.forward(weight, aigMgr) ##check whether the weighted load is correct
-   loss = load.sum()
-   # dot = make_dot(load, params={"weight": choices.weight})
-   # dot.render("computation_graph"+str(epoch), format="png", view=False)
+   # loss = load.sum()
+   
 
    arrival = torch.zeros(2, aigMgr.level, aigMgr.maxNode).to(device)
    slew = torch.zeros(2, aigMgr.level, aigMgr.maxNode).to(device)
 
 
    circuitMgr.forward(arrival, slew, load, weight)
-   # dot = make_dot(mlaigMgr.arrival, params={"weight": choices.weight})
-   # dot.render("computation_graph"+str(epoch), format="png", view=False)
    poArrival = (arrival*circuitMgr.outputCond)
    loss = poArrival.sum()
    optimizer.zero_grad()
    loss.backward()
    optimizer.step()
-   if epoch % 10 == 0:
+   # if epoch == 0 or epoch == 10:
+   #    dot = make_dot(arrival, params={"weight": choices.weight})
+   #    dot.render("computation_graph"+str(epoch), format="png", view=False)
+   if epoch % 100 == 0:
       print(loss)
    # print(choices.weight)
    # print(f'backward time: {time.time() - t0:.4f}s')
 
 print(f'gradient descent time: {time.time() - t0:.4f}s')
 # print("end")
-weight = choices.forward()
-print(weight)
-weight = weight.to("cpu")
-aigMgr.showMapResult(weight)
-
-   
-
-
-
-
-
-
-
-
-
-
+# weight = choices.forward()
+# print(weight)
+# weight = weight.to("cpu")
+# aigMgr.showMapResult(weight)

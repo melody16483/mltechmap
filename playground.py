@@ -1,5 +1,6 @@
 import torch
-from mltechmap.lib import *
+from lib import *
+from aig import *
 
 libmgr = libMgr()
 
@@ -7,6 +8,13 @@ libmgr = libMgr()
 
 libmgr.ExcelParser('./lib/Nangate45_typ')
 
-libmgr.singleLibInfo()
+libmgr.libInfo()
 
 
+# aigmgr = aigMgr()
+# aigmgr.cutParser('./aig/uu.txt', libmgr)
+# print(aigmgr.level, aigmgr.maxNode, aigmgr.maxCut, aigmgr.maxFanout)
+# load = aigmgr.outputLoad(libmgr.libs)
+# outputADJ, outputWireADJ = aigmgr.outputADJ()
+# weightMaskPre, weightMaskPost = aigmgr.weightMask()
+# print(load)
